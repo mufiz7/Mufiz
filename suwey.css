@@ -65,13 +65,83 @@ body{
     
     
 }
+
+.head{
+
+    padding-left: 50px;
+    margin: 100px;
+}
+.head #p {
+    color: rgba(251, 251, 251, 0.993);   
+    padding: 40px;
+   font-size:50PX;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+   
+}
+c{
+    color: rgb(195, 174, 245);
+    font-weight: 200px;
+}
+.head button{
+    color:rgb(246, 246, 246);
+    border:none ;
+    background:transparent;
+    border:2px solid white ;
+    border-radius: 10px;
+    box-shadow: 0 0 15px white;
+    transition: 0.5s ease-in-out;
+}
+
+.head:hover button {
+    color:rgb(10, 10, 10);
+    border:none ;
+    background:white;
+    border:2px solid white ;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+transition: 0.5s ease-in-out;
+
+}
+
+.OOP #suwey{
+
+    margin: 300px;
+}
+ 
+ .OOP h1 {
+     margin: 4px;
+     color: rgb(238, 227, 235);  
+     text-align: center;
+     font-style: italic;
+     
+     
+ }
+
+ .OOP h2{
+     color: rgb(255, 255, 255);
+     font-weight: 200px;
+     text-align: center;
+    
+ 
+ }
+
+ e{
+    color: rgb(195, 174, 245);
+ }
+ 
 .services {
     text-align: center;
-    padding: 20px;  
+    padding: 20px;
+    margin-top: 50px;
+   
+   
+    
 }
 .services h1{
     color: rgba(255, 252, 252, 0.988);
     font-style: italic;
+    margin-top: 0%;
 }  
 .services s{
     color:rgb(195, 174, 245);
@@ -97,85 +167,34 @@ body{
     width: 300px;
     height: 200;
     border-radius: 30px;
+    border: #c90303;
 }
 
 #box1 h2{
  color: rgb(255, 255, 255);
  border-radius: 90px;
- border:2px sloid black;
- border: 0px;
- border: 1px solid #838383;
+ border: 2px solid #f0eeee;
+ background-color: rgba(18, 11, 57, 0.159);
 padding: 10px;
 padding-left: 50PX;
 margin: 40px;
 font-weight: 600;
-
- 
+border-color: #f9f9f9;
+box-shadow: 0 0 15px rgb(145, 165, 239); 
 }
+
 #box1{
     width: 400px;
     margin: 10px;
     padding: 40px;
    backdrop-filter: blur(10px);
     border-radius: 23px;
-    border: none;
-    border: 2px solid rgba(255, 255, 255, 0.578);
+    border: 2px solid rgb(180, 180, 242);
+    box-shadow: 0 0 15px rgb(145, 165, 239);
+    transition: 0.5s ease-in-out;
     
 }
-.head{
-    margin: 100px;
-    padding: 50px;
-}
-.head #p {
-    justify-content: 50PX;
-    color: rgba(223, 222, 222, 0.993);   
-   padding: 44px;
-   font-size:50PX;
-   line-height: normal;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-weight: 600;
-    justify-content: center;
-}
-c{
-    color: rgb(119, 225, 255);
-}
-.head button{
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    border: 2px solid rgb(222, 212, 212);
-    border-radius: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 30px;
-    font-weight: 700;  
-    border:2px solid rgb(255, 251, 251) ;
-    box-shadow: 0 0 30px rgb(117, 117, 117);
-   
-    
- 
-}
-.OP{
-    margin: 200px;
-}
-.OP h1 {
-    margin: 60px;
-    font-weight: 700; 
-    color: rgb(238, 227, 235);  
-    text-align: center;
-    
-}
-e{
-    color: rgb(195, 174, 245);
-}
-.OP h2{
-    color: rgb(255, 255, 255);
-    font-weight: 300px;
 
-    font-family: serif;
-    text-align: center;
-
-}
 
 .container input{
     max-width: 400px;
@@ -198,24 +217,27 @@ header{
     justify-content: center;
     width: 100%;
     margin-top: 130px;
-    background-image: url(../imgfolder/black-background-with-white-line-that-says-network_994023-356762.avif);
+    background-image: url(./imgfolder/back\ img\ car.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .btms{
-    color:rgb(243, 236, 236);
+    color:rgb(246, 246, 246);
     border:none ;
     background:transparent;
     border:2px solid white ;
     border-radius: 10px;
     box-shadow: 0 0 15px white;
-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .btms:hover{
-    color:rgb(0, 0, 0);
+    color:rgb(245, 245, 245);
     border:none ;
     background:white;
     border:2px solid white ;
     border-radius: 10px;
-    box-shadow: 0 0 30px white;
+    box-shadow: 0 0 30px rgb(255, 255, 255);
 transition: 0.5s ease-in-out;
 }
 .noob{
@@ -226,12 +248,17 @@ transition: 0.5s ease-in-out;
     border-radius: 10px;
     box-shadow: 0 0 15px white;
 transition: 0.5s ease-in-out;
-padding: 20px;
+ padding: 20px;
 }
 .op{
-    color:rgb(243, 242, 242);
+    color:rgb(248, 244, 244);
 padding: 20px;
 text-shadow:0 0 30px #fdf7f7,0 0 30px #fff,0 0 30px #fff;
+}
+
+.fotter h4{
+    color: #f0e9e9;
+    text-align: center;
 }
 
 
