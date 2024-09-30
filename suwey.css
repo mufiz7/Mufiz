@@ -14,7 +14,7 @@ span {
 
 b {
     font-weight: 1000;
-    color: rgb(234, 12, 12);
+    color: rgb(195, 174, 245);
 }
 
 .navbar{
@@ -67,20 +67,19 @@ body{
 }
 
 .head{
-
+    height: 100vh;
     padding-left: 50px;
-    margin: 100px;
 }
 .head #p {
     color: rgba(251, 251, 251, 0.993);   
-    padding: 40px;
+    margin: 40px;
    font-size:50PX;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-weight: 600;
-   
+   text-shadow: 1px 1px 12px rgb(131, 117, 255);
 }
 c{
-    color: rgb(195, 174, 245);
+    color: rgb(255, 255, 255);
     font-weight: 200px;
 }
 .head button{
@@ -88,9 +87,18 @@ c{
     border:none ;
     background:transparent;
     border:2px solid white ;
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 0 0 15px white;
     transition: 0.5s ease-in-out;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+@media (max-width:700px){
+    .head button{
+        margin-top: 1px;
+    }
 }
 
 .head:hover button {
@@ -100,25 +108,24 @@ c{
     border:2px solid white ;
     border-radius: 10px;
     box-shadow: 0 0 30px rgb(255, 255, 255);
-transition: 0.5s ease-in-out;
-
+    transition: 0.5s ease-in-out;
 }
 
 .OOP #suwey{
-
-    margin: 300px;
+    margin: 20px;
+    margin-top: -70px;
 }
+
+
  
  .OOP h1 {
      margin: 4px;
      color: rgb(238, 227, 235);  
      text-align: center;
      font-style: italic;
-     
-     
  }
 
- .OOP h2{
+ .OOP h3{
      color: rgb(255, 255, 255);
      font-weight: 200px;
      text-align: center;
@@ -134,10 +141,9 @@ transition: 0.5s ease-in-out;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
-   
-   
-    
+  
 }
+
 .services h1{
     color: rgba(255, 252, 252, 0.988);
     font-style: italic;
@@ -158,10 +164,23 @@ transition: 0.5s ease-in-out;
 {
     .cover{
 
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
+
+    .head{
+
+        padding-left: 0px;
+        margin: 0px;
+    } 
+   
+    .OOP h1{
+        margin: 30px;
+        text-align: center;
+    }
+
     
+    
+
 }
 .cover #box1 img{
     width: 300px;
@@ -205,6 +224,8 @@ box-shadow: 0 0 15px rgb(145, 165, 239);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
 }
+
+/* Form section */
 .form\bot{
     display: flex;
     align-items: center;
@@ -238,7 +259,7 @@ header{
     border:2px solid white ;
     border-radius: 10px;
     box-shadow: 0 0 30px rgb(255, 255, 255);
-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .noob{
     color:rgb(20, 19, 19);
@@ -247,23 +268,16 @@ transition: 0.5s ease-in-out;
     border:2px solid white ;
     border-radius: 10px;
     box-shadow: 0 0 15px white;
-transition: 0.5s ease-in-out;
- padding: 20px;
+    transition: 0.5s ease-in-out;
+    padding: 20px;
 }
 .op{
     color:rgb(248, 244, 244);
-padding: 20px;
-text-shadow:0 0 30px #fdf7f7,0 0 30px #fff,0 0 30px #fff;
+    padding: 20px;
+    text-shadow:0 0 30px #fdf7f7,0 0 30px #fff,0 0 30px #fff;
 }
 
 .fotter h4{
     color: #f0e9e9;
     text-align: center;
 }
-
-
-
-
-
-
-
